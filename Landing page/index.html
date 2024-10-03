@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card with Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu">
+    <div class="container flex">
+        <div class="mobile-btn">
+            <ion-icon name="grid"></ion-icon>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#why-us">Us</a></li>
+            <li class="nav-item"><a href="#explore">Explore</a></li>
+            <li class="nav-item"><a href="#trainer">Coaches</a></li>
+            <li class="nav-item"><a href="#membership">Membership</a></li>
+            <li class="nav-item"><a href="#login">Register</a></li>
+        </ul>
+        <a href="#" class="btn">Register</a>
+    </div>
+</div>
+
+<header>
+    <div class="card">
+        <div class="circle" style="--clr:#01d0f4;">
+            <img src="./img/logo.png" alt="" class="logo">
+        </div>
+        <div class="content">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor </p>
+            <a href="#">Explore more</a>
+        </div>
+        <img src="./img/mancuernas.png" alt="" class="product_img">
+    </div>   
+</header>
+
+<!-- Why Us -->
+<div class="section" id="why-us">
+    <div class="container flex">
+        <div class="text">
+            <h2 class="primary mb">Why Choose Us?</h2>
+            <h3 class="secondary mb">Consultation with Expert.</h3>
+            <p class="tertiary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos maxime tempore?
+            </p>
+            <h3 class="secondary mb">Consultation with Expert.</h3>
+            <p class="tertiary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos maxime tempore?
+            </p>
+        </div>
+        <div class="visual">
+            <img src="./img/Prof1.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- Explore -->
+<div class="section" id="explore">
+    <div class="container flex">
+        <div class="visual">
+            <img src="./img/Explore.png" alt="">
+        </div>
+        <div class="text">
+            <h2 class="primary mb">
+                Explore Our Fitness <br />
+                Studio
+            </h2>
+            <p class="tertiary mb">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse vitae ratione quos maiores eveniet temporibus illum! Eligendi amet officia unde sint totam ut optio. Molestiae, illo quia?
+            </p>
+            <a href="#" class="btn mt">Get Started Now</a>
+        </div>
+    </div>
+</div>
+<!-- End Explore -->
+<!-- Trainer -->
+<div class="section" id="trainer">
+    <h2 class="primary mb">Our Professional Trainers</h2>
+    <div class="container flex">
+      <div class="trainer">
+        <img
+          src="./img/prof3.jpg"
+          alt=""
+        />
+        <h3 class="secondary mb">Alan Smith</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+
+        <a href="#" class="btn-2">
+          <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+        </a>
+      </div>
+
+      <div class="trainer">
+        <img
+          src="./img/prof2.avif"
+          alt=""
+        />
+        <h3 class="secondary mb">Alan Smith</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+
+        <a href="#" class="btn-2">
+          <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+        </a>
+      </div>
+
+      <div class="trainer">
+        <img
+          src="./img/prof4.jpg"
+          alt=""
+        />
+        <h3 class="secondary mb">Alan Smith</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+
+        <a href="#" class="btn-2">
+          <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Trainer -->
+   
+<!-- Membership Plans -->
+<div class="section" id="membership">
+    <h2 class="primary mb">Our Membership Plans</h2>
+    <div class="container flex">
+        <div class="plan">
+            <h3 class="secondary mb">Basic Plan</h3>
+            <p class="tertiary mb">
+                Access to gym and classes during non-peak hours. 
+                <br><strong>$20/month</strong>
+            </p>
+            <a href="#" class="btn-2">Choose Plan</a>
+        </div>
+
+        <div class="plan">
+            <h3 class="secondary mb">Standard Plan</h3>
+            <p class="tertiary mb">
+                Full access to gym and classes, plus 5 personal trainer sessions.
+                <br><strong>$40/month</strong>
+            </p>
+            <a href="#" class="btn-2">Choose Plan</a>
+        </div>
+
+        <div class="plan">
+            <h3 class="secondary mb">Premium Plan</h3>
+            <p class="tertiary mb">
+                Unlimited gym access, classes, and personal trainer sessions.
+                <br><strong>$60/month</strong>
+            </p>
+            <a href="#" class="btn-2">Choose Plan</a>
+        </div>
+    </div>
+</div>
+<!-- End Membership Plans -->
+
+<!-- Login Section -->
+<div class="wrapper" id="login">
+    <span class="rotate-bg"></span>
+    <span class="rotate-bg2"></span>
+
+    <div class="form-box login">
+        <h2 class="title animation" style="--i:0; --j:21">Login</h2>
+        <form action="#">
+            <div class="input-box animation" style="--i:1; --j:22">
+                <input type="text" required>
+                <label for="">Username</label>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box animation" style="--i:2; --j:23">
+                <input type="password" required>
+                <label for="">Password</label>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn animation" style="--i:3; --j:24">Login</button>
+            <div class="linkTxt animation" style="--i:5; --j:25">
+                <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="info-text login">
+        <h2 class="animation" style="--i:0; --j:20">Welcome Back!</h2>
+        <p class="animation" style="--i:1; --j:21">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,rem?</p>
+    </div>
+
+    <div class="form-box register">
+        <h2 class="title animation" style="--i:17; --j:0">Sign Up</h2>
+        <form action="#">
+            <div class="input-box animation" style="--i:18; --j:1">
+                <input type="text" required>
+                <label for="">Username</label>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box animation" style="--i:19; --j:2">
+                <input type="email" required>
+                <label for="">Email</label>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box animation" style="--i:20; --j:3">
+                <input type="password" required>
+                <label for="">Password</label>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn animation" style="--i:21;--j:4">Sign Up</button>
+            <div class="linkTxt animation" style="--i:22; --j:5">
+                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="info-text register">
+        <h2 class="animation" style="--i:17; --j:0;">Welcome Back!</h2>
+        <p class="animation" style="--i:18; --j:1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,rem?</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container flex">
+        <p class="tertiary">
+        <p>Buno Chiodelli &copy; 2024</p>
+    </div>
+</footer>
+
+<!-- Ionicons y Scripts -->
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
